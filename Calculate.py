@@ -1,7 +1,6 @@
 import numpy as np
 import random
 
-
 # Ввод чисел в формате a + b
 def calc(a,sign,b):
     if sign == "+":

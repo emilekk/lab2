@@ -28,5 +28,5 @@ class TestBubble:
         assert Calculate.bubble(toMin) == [8,7,6,5,4,3,2,1]
 
     #тест сортировки с ошибкой
-    def testMin(self, toError):
+    def testError(self, toError):
         assert Calculate.bubble(toError) == -1
